@@ -35,6 +35,6 @@ names:
   - Diesel
 ```
 
-Logos have to be in the www directory. The can be used. If you dont want the logos, just remove the whole logos section.
+Logos have to be in the `www` directory. The can be used. If you dont want the logos, just remove the whole logos section.
 
 The Companies which own the Logos have the copyright!
