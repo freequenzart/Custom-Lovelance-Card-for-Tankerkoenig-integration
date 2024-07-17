@@ -31,6 +31,7 @@ class TankerkoenigCard extends HTMLElement {
 
       if(this.config.hide_closed_stations && !isOpen) {
         this.setVisibility(isOpen, station);
+        this.oldData[stationIndex].isOpen = false;
         return;
       }
 
