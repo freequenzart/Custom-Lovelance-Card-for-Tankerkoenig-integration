@@ -126,7 +126,7 @@ class TankerkoenigCard extends HTMLElement {
               ${ 
                   this.config.stations.map((station) => {
                     return  `
-                    <div class="station" id="${ station }">
+                    <div class="station hidden" id="${ station }">
                       <div class="station-icon ${ this.config.grayscale ? 'grayscale' : ''}" id="${ station }Icon">       
 
                       </div>
