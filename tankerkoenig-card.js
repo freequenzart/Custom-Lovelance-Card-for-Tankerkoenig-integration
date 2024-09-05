@@ -45,7 +45,7 @@ class TankerkoenigCard extends HTMLElement {
         stationStreet = attr.street + ' ' + attr.house_number;
         const price   =  (isOpen ? fuel.state : '0,000');
 
-        !oldData || price !== oldData.prices[index] ? this.setPrice(price, attr.unit_of_measurement, station + type) : null;
+        !oldData || !oldData.prices || price !== oldData.prices[index] ? this.setPrice(price, attr.unit_of_measurement, station + type) : null;
 
         return price;
       });
